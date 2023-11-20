@@ -60,10 +60,6 @@ export default async function Sidebar(): Promise<React.JSX.Element> {
                 Favorites
               </Link>
             </Button>
-            <Button variant="ghost" className="w-full justify-start FLEX gap-2">
-              <Trash />
-              Deleted
-            </Button>
           </div>
         </div>
       </div>
