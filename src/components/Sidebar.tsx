@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
-import { Folder, Heart, Image as Images, Trash } from "lucide-react";
+import { Folder, Heart, Image as Images } from "lucide-react";
 import Link from "next/link";
 import { AlbumsFolder } from "../../type";
 import cloudinary from "cloudinary";

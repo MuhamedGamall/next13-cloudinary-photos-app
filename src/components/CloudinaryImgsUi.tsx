@@ -18,8 +18,6 @@ export default function CloudinaryImgsUi(
   const [isFavorited, setIsFavorited] = useState(
     imgData.tags.includes("favorite")
   );
-  console.log(imgData);
-  
   return (
     <div className="relative">
       <CldImage {...props} src={imgData.public_id} className="" />
